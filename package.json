@@ -1,0 +1,44 @@
+{
+  "name": "ghify-request",
+  "version": "1.0.0",
+  "description": "Create a Request wrapper to interact with the GitHub API",
+  "repository": "shinnn/ghify-request",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn/node --rule 'complexity: [2, 20]' index.js test.js",
+    "test": "node --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --harmony_destructuring node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "request",
+    "http",
+    "https",
+    "github",
+    "api",
+    "github-api",
+    "wrap",
+    "wrapper",
+    "option",
+    "options",
+    "default",
+    "defaults",
+    "integration",
+    "get",
+    "put",
+    "patch",
+    "post",
+    "head",
+    "del"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^1.0.1",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
+    "request": "^2.67.0",
+    "tape": "^4.2.2"
+  }
+}
