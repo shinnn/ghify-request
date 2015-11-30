@@ -2,7 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/ghify-request.svg)](https://www.npmjs.com/package/ghify-request)
 [![Build Status](https://travis-ci.org/shinnn/ghify-request.svg?branch=master)](https://travis-ci.org/shinnn/ghify-request)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/ghify-request.svg)](https://coveralls.io/r/shinnn/ghify-request)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/ghify-request.svg)](https://coveralls.io/github/shinnn/ghify-request)
+[![Dependency Status](https://david-dm.org/shinnn/ghify-request.svg)](https://david-dm.org/shinnn/ghify-request)
 [![devDependency Status](https://david-dm.org/shinnn/ghify-request/dev-status.svg)](https://david-dm.org/shinnn/ghify-request#info=devDependencies)
 
 Create a [Request](https://www.npmjs.com/package/request) wrapper to interact with the [GitHub API](https://developer.github.com/v3/)
@@ -63,7 +64,7 @@ ghifyRequest(request, {
 #### options.baseUrl
 
 Type: `String`  
-Default: `process.env.GITHUB_ENDPOINT`
+Default: `process.env.GITHUB_ENDPOINT` if available, otherwise `'https://api.github.com'`
 
 Use the different [endpoint](https://developer.github.com/v3/#root-endpoint) to support [Github enterprise](https://enterprise.github.com/).
 
