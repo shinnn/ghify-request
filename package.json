@@ -6,7 +6,7 @@
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --config @shinnn/node --rule 'complexity: [2, 20]' index.js test.js",
-    "test": "node --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
+    "test": "node --throw-deprecation --track-heap-objects test.js",
     "coverage": "node --harmony_destructuring node_modules/.bin/istanbul cover test.js"
   },
   "license": "MIT",
