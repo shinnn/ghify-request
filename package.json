@@ -38,10 +38,10 @@
     "ghify-request-options": "^1.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node": "^2.0.0",
-    "eslint": "^2.4.0",
-    "istanbul": "^0.4.2",
-    "request": "^2.69.0",
-    "tape": "^4.5.1"
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.3.1",
+    "istanbul": "^0.4.5",
+    "request": "^2.74.0",
+    "tape": "^4.6.0"
   }
 }
