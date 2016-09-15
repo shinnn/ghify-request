@@ -70,6 +70,6 @@ Use the different [endpoint](https://developer.github.com/v3/#root-endpoint) to 
 
 ## License
 
-Copyright (c) 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2015 - 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
