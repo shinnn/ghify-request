@@ -5,9 +5,9 @@
   "repository": "shinnn/ghify-request",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
-    "pretest": "eslint --config @shinnn/node --rule 'complexity: [2, 20]' index.js test.js",
+    "pretest": "eslint --fix --format=codeframe index.js test.js",
     "test": "node --throw-deprecation --track-heap-objects test.js",
-    "coverage": "node --harmony_destructuring node_modules/.bin/istanbul cover test.js"
+    "coverage": "istanbul cover test.js"
   },
   "license": "MIT",
   "files": [
@@ -39,9 +39,12 @@
   },
   "devDependencies": {
     "@shinnn/eslint-config-node": "^3.0.0",
-    "eslint": "^3.3.1",
+    "eslint": "^3.11.0",
     "istanbul": "^0.4.5",
-    "request": "^2.74.0",
-    "tape": "^4.6.0"
+    "request": "^2.79.0",
+    "tape": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node"
   }
 }
