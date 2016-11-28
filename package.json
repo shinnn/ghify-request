@@ -1,6 +1,6 @@
 {
   "name": "ghify-request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a Request wrapper to interact with the GitHub API",
   "repository": "shinnn/ghify-request",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
